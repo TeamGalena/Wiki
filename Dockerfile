@@ -1,10 +1,18 @@
 FROM squidfunk/mkdocs-material:latest AS builder
 
+ENV CI=true
+
 # install dependencies
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # build the project
+ARG repo_url
+ENV REPO_URL=repo_url
+
+ARG site_url
+ENV SITE_URL=site_url
+
 COPY docs docs
 COPY mkdocs.yml .
 RUN mkdocs build

@@ -1,7 +1,7 @@
 site_name: Galena Wiki
-repo_url: https://github.com/TeamGalena/Wiki
 edit_uri: edit/main/docs/
 site_url: !ENV [SITE_URL, "http://localhost:8000"]
+repo_url: !ENV [REPO_URL]
 
 theme:
   name: material
