@@ -1,0 +1,57 @@
+site_name: Galena Wiki
+repo_url: https://github.com/TeamGalena/Wiki
+edit_uri: edit/main/docs/
+site_url: !ENV [SITE_URL, "http://localhost:8000"]
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: deep purple
+
+  logo: assets/icon.svg
+  favicon: assets/icon.svg
+
+  features:
+    - content.action.edit
+    - content.code.copy
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/JmMf7CEKsx
+
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@TeamGalena
+
+    - icon: simple/modrinth
+      link: https://modrinth.com/user/TeamGalena
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/TeamGalena
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enabled: !ENV [CI, false]
+  - glightbox:
+      manual: true
+  - social:
+      enabled: !ENV [CI, false]
