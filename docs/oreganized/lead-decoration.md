@@ -2,12 +2,53 @@
 
 ### Lead Blocks
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium tellus vitae mauris convallis lobortis. Praesent molestie justo elit, eget vulputate risus vestibulum in. Vivamus tincidunt ac odio at tempus. Nullam rutrum interdum turpis sit amet semper. Morbi quis augue venenatis, tristique justo a, feugiat quam. Donec faucibus est sit amet efficitur porttitor. Nulla non mattis dolor. Aenean maximus, mauris sit amet tempor euismod, nunc quam interdum diam, vitae imperdiet nisl arcu vel risus. Etiam viverra augue vel felis pretium, at sodales tellus condimentum. Duis mattis metus a diam convallis, sed cursus odio suscipit. Proin lectus mauris, aliquam tristique ultricies id, convallis a ligula. Quisque rhoncus, nisl non tempor pharetra, nibh nulla volutpat nunc, quis laoreet quam sem ac nisl. Nullam nulla ex, cursus sit amet mi id, iaculis varius eros. Maecenas at porttitor ligula. Proin ipsum nisl, elementum at egestas vitae, rhoncus a justo. Fusce bibendum nisi sit amet est blandit sollicitudin.
+There are different decorative blocks made out of lead. Like most things made out of lead, the will start to melt when placed next to a heat source (See [Melting](melting.md))
 
-### Lead Bars
+<div class="grid hotbar" style="max-width: 500px;" markdown>
 
-Nulla semper turpis risus, vel finibus magna tristique tincidunt. Nunc feugiat est sed tortor ultrices, ut dictum arcu auctor. Fusce facilisis ac dolor at accumsan. Suspendisse eget velit vehicula, aliquam lacus eu, pellentesque neque. Vestibulum vel aliquet erat, sed luctus nisi. Proin vel neque massa. Donec tempus sem felis, ac congue nisl viverra eu. Quisque hendrerit elit sodales, pharetra metus nec, vulputate ante. Nullam placerat nibh leo, eu sodales enim faucibus sit amet. Fusce lobortis vehicula nunc, in commodo ex blandit a.
+![Lead Block]({{ hosts.icons }}/oreganized/lead_block.png)
+
+![Cut Lead]({{ hosts.icons }}/oreganized/cut_lead.png)
+
+![Lead Pillar]({{ hosts.icons }}/oreganized/lead_pillar.png)
+
+![Lead Bricks]({{ hosts.icons }}/oreganized/lead_bricks.png)
+
+</div>
 
 ### Lead Doors
 
-Duis luctus dignissim mauris. Nulla enim nulla, facilisis nec quam ut, dapibus pulvinar sem. Maecenas id commodo sapien. Maecenas enim purus, vehicula nec erat eu, vestibulum mollis tortor. Nullam orci orci, tempor vitae ex eget, congue porta libero. Vivamus a massa nisi. Nam rutrum ipsum at lectus gravida, ac sollicitudin neque feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed non justo malesuada, vehicula lectus at, mollis mauris. Sed ut dui accumsan, pharetra nulla ut, scelerisque ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque finibus pellentesque pretium. Donec sit amet mauris semper, elementum eros porta, feugiat sem. Phasellus rhoncus non velit tempus scelerisque.
+<div class="grid aside" markdown>
+
+<div markdown>
+Lead doors and trapdoors work the same and have two features that differentiate them from other doors.
+They cannot be opened using redstone but only by hand.
+Instead of openening instantly, players need to press a few seconds to push them open.
+Letting go of the door will cause it to close after a second again.
+
+The second mechanic is that similar to other lead blocks, heating affects the way they can be used.
+Melting it into the goopy state, damage cause the players while they press it open,
+in the red hot state it will only hurt but not even open anymore.
+
+</div>
+
+<div class="grid" markdown>
+
+![Lead Door]({{ hosts.icons }}/oreganized/lead_door.png)
+
+![Lead Trapdoor]({{ hosts.icons }}/oreganized/lead_trapdoor.png)
+
+</div>
+
+</div>
+
+### Lead Bars
+
+<div class="grid aside" markdown>
+
+Lead bars are more fragile than other lead blocks. This prevents them from reforming after being completely molten into the red hot state.
+Instead, when mined in this state or when they cool down again, they break down and drop a few lead nuggets ![]({{ hosts.icons }}/oreganized/lead_nugget.png){ .inline-icon }
+
+![Lead Bars]({{ hosts.icons }}/oreganized/lead_bars.png)
+
+</div>

@@ -1,0 +1,45 @@
+.md-typeset {
+  .banner {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .aside {
+    grid-template-columns: 3fr 1fr;
+    gap: 1.6rem;
+
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .hotbar {
+    grid-auto-flow: column;
+    grid-template-columns: unset;
+
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    p > .twemoji {
+      font-size: 1.6rem;
+    }
+  }
+
+  .inline-icon {
+    display: inline-block;
+    height: 1.6em;
+    margin-bottom: -0.4em;
+  }
+
+  .curseforge {
+    --md-primary-fg-color: #f16436;
+    --md-accent-fg-color: #ff784d;
+  }
+
+  .modrinth {
+    --md-primary-fg-color: #1bd96a;
+    --md-accent-fg-color: #22ff84;
+  }
+}
