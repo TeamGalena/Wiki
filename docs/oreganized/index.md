@@ -1,9 +1,15 @@
 # Oreganized
 
-![](/assets/oreganized/banner.png){.on-glb : style="height: 200px; width: 100%; object-fit: cover"}
+![](/assets/oreganized/banner.png){.on-glb .banner}
 
-Oreganized is a mod that adds new metals to minecraft.
+[:simple-curseforge: Download on CurseForge](https://www.curseforge.com/minecraft/mc-mods/oreganized){ .md-button .curseforge }
+[:simple-modrinth: Download on Modrinth](https://modrinth.com/mod/oreganized){ .md-button .modrinth }
+[:fontawesome-brands-github: Browse the Sourcecode](https://github.com/Xaidee/oreganised){ .md-button }
 
-Praesent vel gravida diam. Aliquam semper vestibulum nisl sit amet faucibus. Curabitur sagittis orci nec urna lacinia convallis. Integer eu eros consectetur, ullamcorper ligula vitae, finibus felis. Cras sit amet facilisis orci. Maecenas blandit, quam eget convallis fringilla, felis elit dignissim eros, eget mollis lectus nibh ut sem. Donec tincidunt metus et odio egestas tempor. Maecenas iaculis ligula nec molestie vehicula. Quisque dapibus tortor et velit sodales facilisis. Proin id egestas felis. Maecenas interdum, lectus et egestas hendrerit, urna mi fringilla nulla, in dictum odio dolor sit amet augue. Nam euismod neque sed diam aliquam pharetra. Proin scelerisque fermentum pretium. Nullam sollicitudin tellus maximus, mattis mauris eu, vestibulum quam. Nulla venenatis nisl id sapien fermentum, sed efficitur sem sagittis.
+Oreganized is a mod inspired by the 1.17 inclusion of Copper in minecraft and imagines how would 2 new metals look like if they were added today.
+Each with their unique niches and themes.
 
-Sed egestas finibus viverra. Etiam nec mollis magna. Fusce ut mi vitae felis mollis hendrerit. Duis lobortis mi a augue scelerisque mollis. Duis at nulla vel diam iaculis placerat. Curabitur ornare, augue ornare aliquet ullamcorper, nulla magna ultrices ex, at porttitor arcu lacus non libero. Maecenas cursus euismod magna, in tristique sapien ultricies id. Integer maximus lorem sed lobortis dapibus.
+Silver ![]({{ hosts.icons }}/oreganized/silver_ingot.png){ .inline-icon } can be made into Mirrors, [Scribe](scribe.md), [Gargoyles](gargoyle.md) and make a new alloy called [Electrum](electrum.md).
+
+Lead ![]({{ hosts.icons }}/oreganized/lead_ingot.png){ .inline-icon } can be used for [decoration](lead-decoration.md), melted and for [Lead Bolts](lead-bolt.md) - new projectiles!
+The world is also filled with an adjacent features to the metals like the new Boulders which you can find in plains that are the source of a new stone type
