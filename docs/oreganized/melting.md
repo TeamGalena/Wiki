@@ -14,7 +14,7 @@ These molten states of blocks will hurt when standing on them. Some blocks, like
 [lead bars ![]({{ hosts.icons }}/oreganized/lead_bars.png){ .inline-icon }](lead-decoration.md#lead-bars)
 also behave differently based on their heat level.
 
-<div class="grid hotbar" style="max-width: 600px" markdown>
+<div class="grid progress" markdown>
 
 ![Lead Block]({{ hosts.icons }}/oreganized/lead_block.png)
 

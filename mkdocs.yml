@@ -40,6 +40,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/TeamGalena
 
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/TeamGalena
+
   hosts:
     icons: https://icons.macarena.ceo/icons
 
@@ -70,3 +73,7 @@ extra_css:
   - styles/extra.css
 extra_javascript:
   - scripts/favicon.js
+
+not_in_nav: |
+  /members.md
+  /contributing/**/*.md

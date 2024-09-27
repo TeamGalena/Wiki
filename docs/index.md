@@ -8,7 +8,7 @@ hide:
 
 !!! example "This wiki is still very much work in progress"
 
-This wiki contains documentation for several mods made by Team Galena
+This wiki contains documentation for several mods made by [Team Galena](members.md "See members").
 
 <div class="grid hotbar cards" markdown>
 

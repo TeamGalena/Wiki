@@ -23,6 +23,10 @@ docs/something/even/elser.md -> /something/even/elser/
 
 ## For Developers
 
+You can run the app locally using only docker & docker-compose using the file `docker/docker-compose.yml`. This will serve the app in dev mode with hot-reloading & everything.
+
+Alternatively you can run it outside of a container using the following instructions.
+
 ### Requirements
 
 - Python 3

@@ -15,16 +15,29 @@
   }
 
   .hotbar {
-    grid-auto-flow: column;
-    grid-template-columns: unset;
-
-    align-items: center;
     margin-left: auto;
     margin-right: auto;
+
+    grid-template-columns: repeat(2, 1fr);
 
     p > .twemoji {
       font-size: 1.6rem;
     }
+
+    @media screen and (min-width: 1220px) {
+      grid-auto-flow: column;
+      grid-auto-columns: 1fr;
+      grid-template-columns: unset;
+    }
+  }
+
+  .progress {
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 600px;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
   }
 
   .inline-icon {
@@ -41,5 +54,22 @@
   .modrinth {
     --md-primary-fg-color: #1bd96a;
     --md-accent-fg-color: #22ff84;
+  }
+
+  .avatar {
+    border-radius: 9999px;
+  }
+
+  .chip {
+    background: var(--md-primary-fg-color);
+    border-radius: 9999px;
+    padding: 0.4em 0.8em;
+    cursor: default;
+
+    transition: background 125ms;
+
+    &:hover {
+      background: var(--md-accent-fg-color);
+    }
   }
 }

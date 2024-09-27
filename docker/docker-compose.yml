@@ -1,0 +1,10 @@
+name: galena-wiki
+
+services:
+  app:
+    image: squidfunk/mkdocs-material:latest
+    volumes:
+      - ../:/docs
+    ports:
+      - 8000:8000
+    entrypoint: ["sh", "docker/setup.sh"]
