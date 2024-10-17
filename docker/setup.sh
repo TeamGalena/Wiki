@@ -1,3 +1,5 @@
+#!/bin/sh
+
 cd /docs
 
 pip install -r requirements.txt

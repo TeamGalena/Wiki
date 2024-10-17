@@ -6,7 +6,7 @@ hide:
 
 # Members
 
-<div class="grid cards hotbar" markdown>
+<div class="grid cards" style="grid-template-columns: repeat(4, 1fr)" markdown>
 
 -   @Binome
 
@@ -83,5 +83,18 @@ hide:
     ---
 
     _Developer_{ .chip }
+    
+
+-   @Firch
+
+    ---
+
+    ![](/assets/avatars/firch.webp){ .avatar }
+
+    Culpa laboris magna tempor quis eiusmod qui sit laboris aute elit quis.
+
+    ---
+
+    _Sound Designer_{ .chip }
 
 </div>
