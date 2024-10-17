@@ -6,7 +6,7 @@ hide:
 
 # Members
 
-<div class="grid cards" style="grid-template-columns: repeat(4, 1fr)" markdown>
+<div class="grid cards members" markdown>
 
 -   @Binome
 

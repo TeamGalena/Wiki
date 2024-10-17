@@ -31,6 +31,14 @@
     }
   }
 
+  .members {
+    grid-template-columns: repeat(2, 1fr);
+
+    @media screen and (min-width: 1220px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
   .progress {
     margin-left: auto;
     margin-right: auto;
