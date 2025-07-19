@@ -6,6 +6,4 @@ Lead Bulbs are crafted with 4 Lead Ingots ![]({{ hosts.icons }}/oreganized/lead_
 
 ![Lead Bulb]({{ hosts.icons }}/oreganized/lead_bulb.png)
 
-![Lead Bulb]({{ hosts.icons }}/oreganized/lead_bulb.png)
-
 </div>
