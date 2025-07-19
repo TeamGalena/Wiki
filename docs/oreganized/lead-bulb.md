@@ -2,8 +2,22 @@
 
 <div class="grid aside" markdown>
 
-Nulla semper turpis risus, vel finibus magna tristique tincidunt. Nunc feugiat est sed tortor ultrices, ut dictum arcu auctor. Fusce facilisis ac dolor at accumsan. Suspendisse eget velit vehicula, aliquam lacus eu, pellentesque neque. Vestibulum vel aliquet erat, sed luctus nisi. Proin vel neque massa. Donec tempus sem felis, ac congue nisl viverra eu. Quisque hendrerit elit sodales, pharetra metus nec, vulputate ante. Nullam placerat nibh leo, eu sodales enim faucibus sit amet. Fusce lobortis vehicula nunc, in commodo ex blandit a.
+Lead Bulbs are crafted with 4 Lead Ingots ![]({{ hosts.icons }}/oreganized/lead_ingot.png){ .inline-icon } surrounding a Glow Ink Sac ![]({{ hosts.icons }}/minecraft/glow_ink_sac.png){ .inline-icon }.
 
 ![Lead Bulb]({{ hosts.icons }}/oreganized/lead_bulb.png)
+
+![Lead Bulb]({{ hosts.icons }}/oreganized/lead_bulb.png)
+
+:material-arrow-right-thick:
+
+![Dimmer Lead Bulb]({{ hosts.icons }}/oreganized/dimmer_lead_bulb.png)
+
+:material-arrow-right-thick:
+
+![Goopy Lead Bulb]({{ hosts.icons }}/oreganized/goopy_lead_bulb.png)
+
+:material-arrow-right-thick:
+
+![Red Hot Lead Block]({{ hosts.icons }}/oreganized/red_hot_lead.png)
 
 </div>
