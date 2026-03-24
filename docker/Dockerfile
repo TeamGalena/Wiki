@@ -22,6 +22,9 @@ FROM nginx:latest AS serve
 
 EXPOSE 80
 
+HEALTHCHECK --timeout=5s \
+   CMD curl -s http://localhost || exit 1
+
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 COPY --from=builder /docs/site /usr/share/nginx/html
