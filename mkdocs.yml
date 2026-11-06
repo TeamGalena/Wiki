@@ -44,7 +44,7 @@ extra:
       link: https://twitter.com/TeamGalena
 
   hosts:
-    icons: https://icons.macarena.ceo/icons
+    icons: https://icons.somethingcatchy.net/icons
 
 markdown_extensions:
   - attr_list

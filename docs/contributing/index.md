@@ -95,7 +95,7 @@ Icons of blocks & items can be embedded using the following syntax.
 
 </div>
 
-[:octicons-search-16: Browse available icons](https://icons.macarena.ceo/browse){ .md-button target="_blank" }
+[:octicons-search-16: Browse available icons](https://icons.somethingcatchy.net/browse){ .md-button target="_blank" }
 
 ### Admonitions
 
